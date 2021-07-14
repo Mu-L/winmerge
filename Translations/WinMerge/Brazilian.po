@@ -158,6 +158,18 @@ msgstr "&Página Seguinte"
 msgid "&Active Pane"
 msgstr "&Painel Ativo"
 
+msgid "Rotate &Right 90deg"
+msgstr ""
+
+msgid "Rotate &Left 90deg"
+msgstr ""
+
+msgid "Flip &Vertically"
+msgstr ""
+
+msgid "Flip &Horizontally"
+msgstr ""
+
 #, c-format
 msgid "&Zoom"
 msgstr "&Zoom"
@@ -896,6 +908,9 @@ msgstr "Di&vidir"
 msgid "Comp&are"
 msgstr "Comp&arar"
 
+msgid "Compare in new &window"
+msgstr ""
+
 msgid "Compare Non-hor&izontally..."
 msgstr "Comparação Não-hor&izontal..."
 
@@ -1318,13 +1333,6 @@ msgstr "A&uto-Conclusão do Diálogo-Abrir:"
 #, c-format
 msgid "Language:"
 msgstr "Idioma:"
-
-msgid "WinMerge allows hiding some common message boxes. Press the Reset button to make all message boxes visible again."
-msgstr "O WinMerge permite esconder algumas caixas de mensagens comuns. Pressione o botão Resetar pra tornar todas as caixas de mensagens visíveis de novo."
-
-#, c-format
-msgid "Reset"
-msgstr "Resetar"
 
 #, c-format
 msgid "Find"
@@ -1797,6 +1805,13 @@ msgstr "C&aracteres da quebra de linha:"
 
 msgid "&Rendering Mode:"
 msgstr "Modo de &Renderização:"
+
+msgid "WinMerge allows hiding some common message boxes. Press the Reset button to make all message boxes visible again."
+msgstr "O WinMerge permite esconder algumas caixas de mensagens comuns. Pressione o botão Resetar pra tornar todas as caixas de mensagens visíveis de novo."
+
+#, c-format
+msgid "Reset"
+msgstr "Resetar"
 
 msgid "File Filters"
 msgstr "Filtros de Arquivo"
@@ -2548,8 +2563,8 @@ msgstr "Ignorar &tudo"
 msgid "Don't display this &message again."
 msgstr "Não exibir esta &mensagem de novo."
 
-msgid "To make this message box visible again, press the Reset button on the General page of the Options dialog."
-msgstr "Pra tornar esta caixa de mensagem visível de novo pressione o botão Resetar na página Geral do diálogo das Opções."
+msgid "To make this message box visible again, press the Reset button on the Message Boxes page of the Options dialog."
+msgstr ""
 
 #, c-format
 msgid "Syntax"
@@ -2564,6 +2579,9 @@ msgstr "Comparar Pastas"
 #, c-format
 msgid "Differences"
 msgstr "Diferenças"
+
+msgid "Message Boxes"
+msgstr ""
 
 #, c-format
 msgid "To:"
@@ -2655,6 +2673,12 @@ msgstr "Tipo de Arquivo"
 #, c-format
 msgid "Extension"
 msgstr "Extensão"
+
+msgid "Message"
+msgstr ""
+
+msgid "Answer"
+msgstr ""
 
 #, c-format
 msgid "Name"
@@ -3856,10 +3880,6 @@ msgid "Cannot create a patch file from binary files."
 msgstr "Não pode criar um arquivo de patch a partir dos arquivos binários."
 
 #, c-format
-msgid "Cannot create a patch file from directories."
-msgstr "Não pode criar um arquivo de patch a partir dos diretórios."
-
-#, c-format
 msgid ""
 "Please save all files first.\n"
 "\n"
@@ -4345,12 +4365,20 @@ msgid "Dist: %g, %g  "
 msgstr "Dist: %g, %g  "
 
 #, c-format
-msgid "Page: %d/%d  Zoom: %d%%  %dx%dpx  %dbpp"
-msgstr "Página: %d/%d  Zoom: %d%%  %dx%dpx  %dbpp"
+msgid "Page: %d/%d  Zoom: %d%%  %dx%dpx  %dbpp  "
+msgstr "Página: %d/%d  Zoom: %d%%  %dx%dpx  %dbpp  "
 
 #, c-format
 msgid "Rc: (%d, %d)  "
 msgstr "Rc: (%d, %d)  "
+
+#, c-format
+msgid "Flipped: %s  "
+msgstr ""
+
+#, c-format
+msgid "Rotated: %s  "
+msgstr ""
 
 msgid "<Edit here>"
 msgstr "<Edite aqui>"
@@ -4473,6 +4501,9 @@ msgstr ""
 msgid "Prettify XML"
 msgstr ""
 
+msgid "Prettify YAML"
+msgstr ""
+
 msgid "Visualize Graphviz"
 msgstr ""
 
@@ -4483,6 +4514,9 @@ msgid "Query TSV Data..."
 msgstr ""
 
 msgid "Query JSON Data..."
+msgstr ""
+
+msgid "Query YAML Data..."
 msgstr ""
 
 #, c-format
